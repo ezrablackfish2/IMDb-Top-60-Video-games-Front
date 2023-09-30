@@ -61,7 +61,7 @@ function Rate({ user, token, darkoverlay, setdarkoverlay, setRateOn}: Props) {
 		setRateOn(false);
 
 		try {
-			const response = await axios.put(`http://0.0.0.0:8000/${id}/rating/`, rateData,
+			const response = await axios.put(`https://imdb-top-60-video-games-ezra.onrender.com/${id}/rating/`, rateData,
         		{
 				headers: {
 				'Content-Type': 'application/json',
