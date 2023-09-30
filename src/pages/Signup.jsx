@@ -96,7 +96,7 @@ function Signup( {user, token, formData, setFormData, loggedin, setlogin} : Prop
 			}
 
 			const getuser = async () => {
-                        	const result = await axios.get("http://0.0.0.0:8000/user/");
+                        	const result = await axios.get("https://imdb-top-60-video-games-ezra.onrender.com/user/");
 				setAllUsers(result.data);
 				result.data.map(all => formData.username === all.username ? setErrMsg("user already exists") : null);
 				allUsers.map(all => console.log(all.username));
