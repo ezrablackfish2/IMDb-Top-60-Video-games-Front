@@ -57,7 +57,7 @@ function GameDetail({ user, token, loggedin, rateOn, setRateOn, darkoverlay, set
 
 	useEffect(() => {
 		if (!token) {
-		axios.get(`http://0.0.0.0:8000/${id}`)
+		axios.get(`https://imdb-top-60-video-games-ezra.onrender.com/${id}`)
 		.then((response) => {
 			setVG(response.data);
 		})
@@ -65,7 +65,7 @@ function GameDetail({ user, token, loggedin, rateOn, setRateOn, darkoverlay, set
 			console.log(error);
 		});
 		} else if (token) {
-			axios.get(`http://0.0.0.0:8000/${id}`,
+			axios.get(`https://imdb-top-60-video-games-ezra.onrender.com/${id}`,
 			{
                                 headers: {
                                 'Content-Type': 'application/json',

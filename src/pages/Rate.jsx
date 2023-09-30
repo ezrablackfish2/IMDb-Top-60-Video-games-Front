@@ -32,7 +32,7 @@ function Rate({ user, token, darkoverlay, setdarkoverlay, setRateOn}: Props) {
 		setRateOn(false);
 
 		try {
-			const response = await axios.delete(`http://0.0.0.0:8000/${id}/rating/`,
+			const response = await axios.delete(`https://imdb-top-60-video-games-ezra.onrender.com/${id}/rating/`,
         		{
 				headers: {
 				'Content-Type': 'application/json',

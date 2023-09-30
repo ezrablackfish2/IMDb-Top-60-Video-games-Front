@@ -28,7 +28,7 @@ function Watchlist({ user, token, watchlistSuccess, setWatchlistSuccess, setWatc
 		setWatchlistOn(false);
 
 		try {
-			const response = await axios.delete(`http://0.0.0.0:8000/${id}/watchlist/`,
+			const response = await axios.delete(`https://imdb-top-60-video-games-ezra.onrender.com/${id}/watchlist/`,
         		{
 				headers: {
 				'Content-Type': 'application/json',
@@ -53,7 +53,7 @@ function Watchlist({ user, token, watchlistSuccess, setWatchlistSuccess, setWatc
 		
 
 		try {
-			const response = await axios.put(`http://0.0.0.0:8000/${id}/watchlist/`, watchlistData,
+			const response = await axios.put(`https://imdb-top-60-video-games-ezra.onrender.com/watchlist/`, watchlistData,
         		{
 				headers: {
 				'Content-Type': 'application/json',

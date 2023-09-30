@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-	baseURL: "http://0.0.0.0:8000/",
+	baseURL: "https://imdb-top-60-video-games-ezra.onrender.com/",
 	params: {
 	},
 });

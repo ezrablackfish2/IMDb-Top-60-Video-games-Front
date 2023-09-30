@@ -17,7 +17,7 @@ function SubmitReview({ user, token }) {
 		};
 
 		try {
-			const response = await axios.put(`http://0.0.0.0:8000/${id}/review/`, reviewData,
+			const response = await axios.put(`https://imdb-top-60-video-games-ezra.onrender.com/${id}/review/`, reviewData,
         		{
 				headers: {
 				'Content-Type': 'application/json',

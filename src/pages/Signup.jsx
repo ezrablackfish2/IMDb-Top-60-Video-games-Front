@@ -49,7 +49,7 @@ function Signup( {user, token, formData, setFormData, loggedin, setlogin} : Prop
     		e.preventDefault();
 
 		try {
-			const response = await axios.post("http://0.0.0.0:8000/user/dj-rest-auth/registration/", formData);
+			const response = await axios.post("https://imdb-top-60-video-games-ezra.onrender.com/user/dj-rest-auth/registration/", formData);
 			const token = response?.data?.key
 			console.log(response.data);
 			console.log(token);
