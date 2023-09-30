@@ -1,0 +1,1611 @@
+.rederror {
+	color: #ff0000;
+}
+
+.infoimage {
+	position: relative;
+	z-index: 10002;
+	right: -87%;
+	top: -44%;
+	width: 5%;
+}
+
+.indent {
+	margin-left: 100px;
+}
+
+.infocontent {
+	position: relative;
+	z-index: 10001;
+}
+
+.infotitle {
+	position: relative;
+	top: -30%;
+	left: 0%;
+	z-index: 1001;
+}
+
+.imdbinfo {
+	color: #cccc00;
+	font-weight: 999;
+	font-family: z003;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: #000000;
+	opacity: 90%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.loadingimage {
+	align-items: center;
+	width: 100%;
+}
+
+.loading {
+	position: absolute;
+	align-items: center;
+	left: 30%;
+}
+
+.showerandhider {
+	position: relative;
+	font-family: Lato Hairline;
+	border: none;
+	border-width: 0.0001px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+	right: 0%;
+}
+.showerandhider:hover {
+	background-color: #ffcc00;
+}
+
+.raterbuttons {
+	font-family: Lato Hairline;
+	background-color: #777777;
+	border: none;
+	width: 80%;
+	margin-top: 10%;
+	padding: 10px 10px 10px 10px;
+	margin-right: 5%;
+	border-radius: 10px 10px 10px 10px;
+}
+.raterbuttons:hover {
+	background-color: #ffff00;
+}
+
+.homewatchlist {
+	position: absolute;
+	width: 45px;
+	left: -10px;
+	top: -5px;
+	opacity: 70%;
+	z-index: 999;
+}
+
+.homeratingvalue {
+	position: relative;
+	font-size: 85%;
+	color: #006666;
+	position: relative;
+	top: -133px;
+	left: 20px;
+}
+
+.homeratelink {
+	font-size: 80%;
+	color: #006666;
+	position: relative;
+	top: -133px;
+	left: 25px;
+}
+
+.homeratingstar {
+	position: relative;
+	top: -130px;
+	width: 15px;
+	left: 25px;
+}
+
+.sorter {
+	font-family: Lato Hairline;
+	padding: 5px 5px 5px 5px;
+	border: none;
+	color: #0000ff;
+	background-color: #ffffff;
+}
+
+.sortall {
+	position: relative;
+	left: 100%;
+	font-family: Lato Hairline;
+}
+
+.addreview {
+	position: relative;
+	width: 5%;
+	right: 1%;
+}
+
+.reviewbutton {
+	background-color: #ffffff;
+	width: 100%;
+	padding: 5px 10px 5px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.reviewall {
+	position: absolute;
+	font-family: Lato Hairline;
+}
+
+.signupimdb {
+	position: absolute;
+	right: 30%;
+	top: -30%;
+}
+
+.signuplinkbutton {
+	background-color: #ffffff;
+	margin-top: 10%;
+	width: 95%;
+	border-width: 0.001px;
+	border-radius: 7px 7px 7px 7px;
+	padding: 5px 5px 5px 5px;
+}
+
+.loginbutton {
+	background-color: #ffcc00;
+	border: none;
+	margin-top: 10%;
+	width: 95%;
+	padding: 5px 5px 5px 5px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.loginbutton:hover {
+	background-color: #ffaa00;
+}
+
+.loginlabel {
+	position: relative;
+	margin-top: 5%;
+	font-weight: 10000;
+	font-size: 90%;
+}
+
+.logininput {
+	position: relative;
+	width: 90%;
+}
+
+.loginimdb {
+	position: absolute;
+	right: 20%;
+}
+.logout {
+	background-color: #000000;
+	color: #cccccc;
+	font-family: purisa;
+	position: relative;
+	top: -10px;
+	left: -20px;
+	width: 90px;
+}
+
+.signinlink {
+	color: #bbbbbb;
+}
+
+.login{
+	font-family: Lato Hairline;
+	align-items: center;
+	position: absolute;
+	width: 30%;
+	border: solid;
+	border-width: 0.0001px;
+	border-radius: 15px 15px 15px 15px;
+	top: 100px;
+	padding: 20px;
+	padding-left: 40px;
+	right: 7%;
+	height: 300px;
+}
+
+.reviewname {
+	position: absolute;
+	right: 5%;
+}
+
+.watchlistimage {
+	width: 100px;
+	opacity: 70%;
+}
+
+.watchlist {
+	position: absolute;
+	z-index: 999;
+
+}
+
+.ratelink {
+	color: #7777ff;
+	font-size: 90%;
+	margin-left: 0%;
+}
+
+.youratingstar {
+	width: 32px;
+}
+
+.darkoverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.starrating input[type="radio"] {
+  display: none;
+}
+
+.starrating label {
+  float: left;
+  padding: 0 0.1em;
+  cursor: pointer;
+}
+
+.starrating label::before {
+  content: "★";
+  font-size: 2em;
+  color: #007bff; 
+}
+
+.starrating input[type="radio"]:checked ~ label::before {
+  color: #ffbf00; 
+}
+
+.reviewlink {
+	position: absolute;
+	color: #0000ff;
+	right: 20%;
+	margin-top: -2%;
+}
+
+
+.between {
+	position: relative;
+	top: 9500px;
+	width: 100%;
+}
+
+.blackicons {
+	position: relative;
+	width: 35px;
+	text-align: center;
+	margin-right: 5%;
+}
+
+.blackcontent {
+	text-align: left;
+	margin-left: 5%;
+	margin-top: 4%;
+}
+
+.blacktitle {
+	position: relative;
+	margin-left: 5%;
+	top: 9%;
+	font-size: 170%;
+	text-align: left;
+}
+
+.blackbottomdetail {
+	text-align: center;
+	font-family: gubbi;
+	position: relative;
+	background-color: #000000;
+	width: 160%;
+	left: 0%;
+	height: 300px;
+	top: 5000px;
+	color: #ffffff;
+	margin-top: 50%;
+}
+
+.blackbottomhome {
+        text-align: center;
+        font-family: gubbi;
+        position: absolute;
+        background-color: #000000;
+        width: 160%;
+	left: -5%;
+        height: 300px;
+        top: 8750px;
+        color: #ffffff;
+        margin-top: 50%;
+}
+
+.genra {
+	display: inline-block;
+	margin-right: 2%;
+}
+
+.detailseach {
+        border: solid;
+	margin-top: 1%;
+	padding: 1%;
+        border-width: 0.005px 0px 0px 0px;
+        border-color: #000000;
+        width: 80%;
+}
+
+.detailresult {
+	color: #0000ff;
+}
+
+.detailstitle {
+	margin-top: 5%;
+}
+.details {
+	font-size: 80%;
+}
+
+.faqtitle {
+	margin-top: 5%;
+}
+
+.faq {
+	color: #0000ff;
+	font-size: 60%;
+	border: solid;
+	border-width: 0.005px 0px 0px 0px;
+	border-color: #0000ff;
+	width: 80%;
+}
+
+.wordadditional {
+	font-family: ani;
+	font-size: 160%;
+	font-weight: bold;
+}
+
+.wordparent {
+	font-family: ani;
+	font-size: 140%;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.parentalguide {
+	position: relative;
+	margin-top: 10%;
+}
+
+.bulleting {
+	width: 3%;
+}
+
+.expandable {
+	position: absolute;
+	background-color: #ffff00;
+	color: #0000ff;
+	font-family: Lato Hairline;
+	font-style: italic;
+	padding: 5px;
+	right: 0%;
+	border-radius: 20px 20px 20px 20px;
+	border-color: #00ffff;
+}
+.expandable:hover {
+	background-color: #ffcc00;
+	border-color: #0000ff;
+}
+
+.review {
+	position: relative;
+	margin-top: 30%;
+}
+
+.additionalnone {
+	display: none;
+}
+
+.know {
+	margin-top: 10%;
+}
+
+.detailadditional {
+	font-family: Lato Hairline;
+	font-size: 80%;
+	position: relative;
+	margin-top: 2%;
+	padding: -2px;
+	border: solid;
+	border-width: 0.000001px;
+	border-radius: 5px 5px 5px 5px;
+	width: 80%;
+	min-height: 0px;
+}
+
+.detailhr {
+	position: absolute;
+	border-color: black;
+}
+
+.middlewriter {
+	position: absolute;
+	margin-top: 5%;
+}
+
+.detailcastimage {
+	position: relative;
+	margin-top: 5%;
+	margin-right: 30%;
+	border-radius: 100%;
+	width: 10%;
+}
+
+.detailcast {
+	position: absolute;
+	top: 1100px;
+	left: 5%;
+	width: 100%;
+}
+
+.detailvideoimage1 {
+	position: absolute;
+	width: 40%;
+	height: 20px;
+	border: solid;
+	border-color: white;
+	padding: 20px;
+	left: 2%;
+	margin-right: -1%;
+	margin-left: -2%;
+}
+
+
+.detailvideoimage1 iframe {
+	position: relative;
+	width: 100%;
+	top: 0px;
+	left: 0%;
+	height: 200px;
+}
+
+.detailvideoimage2 {
+	position: absolute;
+	width: 40%;
+	height: 20px;
+	border: solid;
+	border-color: white;
+	padding: 20px;
+	left: 49%;
+	margin-right: -1%;
+	margin-left: -2%;
+}
+
+
+.detailvideoimage2 iframe {
+	position: relative;
+	width: 100%;
+	top: 0px;
+	left: 0%;
+	height: 200px;
+}
+
+
+.postertrailer {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+}
+
+.play {
+	opacity: 100%;
+	width: 15%;
+	position: absolute;
+	left: 40%;
+	margin-top: 20%;
+}
+
+.Player {
+	z-index: 0;
+}
+
+.poster-overlay {
+display: none;
+  position: relative;
+  width: 200%;
+  height: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.poster-overlay img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.arrowleftvideoimage {
+	opacity: 70%;
+	position: absolute;
+	width: 5%;
+	height: 50px;
+	margin-right: 0%;
+	bottom: -90%;
+       left: 0%;
+       z-index: 999;
+}
+.arrowleftvideoimage:hover {
+	opacity: 100%;
+}
+.arrowrightvideoimage {
+	opacity: 70%;
+	position: absolute;
+	width: 5%;
+	height: 50px;
+	bottom: -90%;
+	right: 3%;
+	margin-left: -7%;
+}
+.arrowrightvideoimage:hover {
+	opacity: 100%;
+}
+.arrowleftvideo {
+	display: inline-block;
+}
+.arrowrightvideo {
+	display: inline-block;
+}
+
+.detailvideoword {
+	position: relative;
+	font-size: 140%;
+	left: 4%;
+}
+
+
+.detailvideo {
+	position: absolute;
+	top: 150px;
+	width: 100%;
+}
+
+
+.arrowleftphotoimage {
+        opacity: 70%;
+        position: absolute;
+        width: 5%;
+        height: 50px;
+        margin-right: 0%;
+        bottom: -200%;
+       left: 3%;
+	z-index: 999;       
+}
+.arrowleftphotoimage:hover {
+	opacity: 100%;
+}
+.arrowrightphotoimage {
+	opacity: 70%;
+        position: absolute;
+        width: 5%;
+        height: 50px;
+        bottom: -200%;
+        right: 13%;
+        margin-left: -7%;
+	z-index: 999;
+}
+.arrowrightphotoimage:hover {
+	opacity: 100%;
+}
+.arrowleftphoto {
+	display: inline-block;
+}
+.arrowrightphoto {
+	display: inline-block;
+}
+
+.detailphotoword {
+	position: relative;
+	font-size: 140%;
+	left: 4%;
+}
+
+.detailphotoimage {
+	position: absolute;
+	width: 70%;
+	border: solid;
+	border-color: #ffff00;
+	padding: 20px;
+	left: 5%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-top: 5%;
+	max-height: 420px;
+}
+
+.detailphoto {
+	position: absolute;
+	top: 550px;
+	width: 100%;
+}
+
+.awardword {
+	position: relative;
+	left: 30px;
+	font-size: 100%;
+	display: inline-block;
+}
+
+
+.middledetail {
+	font-family: purisa;
+	font-size: 120%;
+	background-color: #ffffff;
+	position: absolute;
+	width: 107%;
+	height: 1000px;
+}
+.awards {
+	background-image: linear-gradient(135deg, #ffff00, white, white, white);
+	display: inline-block;
+	margin-top: 10px;
+	border: solid;
+	border-color: #ffff00;
+	border-radius: 10px 10px 10px 10px;
+	width: 90%;
+	padding: 10px;
+	position: absolute;
+	left: 4%;
+}
+
+.topstarlist {
+	color: #4444ff;
+}
+
+.topstars {
+	position: relative;
+	font-size: 120%;
+	top: 510px;
+	color: #ffffff;
+	left: 40px;
+}
+
+.topwriterlist {
+	color: #4444ff;
+}
+
+.topwriters {
+	font-size: 120%;
+	position: relative;
+	top: 490px;
+	color: #ffffff;
+	left: 40px;
+}
+
+.topstory {
+	position: relative;
+	top: 470px;
+	color: #ffffff;
+	left: 40px;
+	width: 60%;
+       font-size: 120%;	
+}
+
+.topdetailgenre {
+	position: absolute;
+	top: 430px;
+	left: 40px;
+	color: #ffffff;
+}
+.topdetailgenrelist {
+	display: inline-block;
+	margin-right: 14px;
+	border: solid;
+	border-radius: 15px 15px 15px 15px;
+	padding: 5px;
+	border-width: 1px;
+}
+
+.detailtopmain {
+	position: absolute;
+	width: 83.5%;
+	top: 145px;
+	background-color: none;
+}
+
+.topgallery {
+	position: absolute;
+	top: -80px;
+	right: 6%;
+	display: inline-block;
+	width: 6%;
+}
+
+.topvideos {
+	font-family: uroob;
+	position: relative;
+	left: 65px;
+	top: 95px;
+	display: inline-block;
+       background-color: #444444;
+	padding: 110%;
+       color: #ffffff;	
+       border-radius: 10px 10px 10px 10px;
+       opacity: 50%;
+}
+.topphotos {
+        font-family: uroob;
+        position: relative;
+        left: 65px;
+        top: 100px;
+        display: inline-block;
+       background-color: #444444;
+        padding: 110%;
+       color: #ffffff;
+       border-radius: 10px 10px 10px 10px;
+       opacity: 50%;
+}
+
+.topyellowstar {
+	width: 30px;
+}
+.topbluestar {
+	width: 30px;
+}
+
+.topimdbrating {
+	display: inline-block;
+}
+
+.topownrating {
+	margin-left: 25px;
+	display: inline-block;
+}
+
+.topratings {
+	font-family: uroob;
+	font-size: 140%;
+        top: -90px;
+        position: absolute;
+        right: -10%;
+        color: #ffffff;
+}
+
+.userlink {
+	margin-left: 12.5px;
+}
+
+.l1 {
+	position: relative;
+	bottom: 5px;
+	margin-left: 12.5px;
+}
+.l2 {
+	position: relative;
+	bottom: 5px;
+	margin-left: 12.5px;
+}
+
+.trivialink {
+	margin-left: 12.5px;
+}
+
+.alltopiclink {
+	margin-left: 25px;
+}
+
+.alltopic {
+	position: relative;
+	top: 10px;
+	width: 30px;
+	margin-right: 10px;
+}
+
+.topshareimage {
+	position: relative;
+	margin-left: 25px;
+	top: 10px;
+	width: 30px;
+}
+.castlink {
+	position: relative;
+}
+
+.links {
+	top: 10px;
+	position: absolute;
+	right: 4%;
+	color: #ffffff;
+}
+.detailtrailer {
+	position: absolute;
+	width: 63%;
+	top: 20%;
+	left: 30%;
+	max-height: 450px;
+}
+.detailtrailer iframe {
+	position: relative;
+	top: 0px;
+	left: 0%;
+	width: 100%;
+	max-height: 450px;
+}
+
+.v {
+	position: absolute;
+	top: 105px;
+	left: 4%;
+
+}
+
+.detailcover {
+	position: absolute;
+	left: 4%;
+	width: 25%;
+	top: 20%;
+	max-height: 400px;
+}
+
+.d1 {
+	position: relative;
+	bottom: 5px;
+}
+
+.d2 {
+	position: relative;
+	bottom: 5px;
+}
+
+.v3 {
+	position: relative;
+	display: inline;
+	left: 20px;
+	color: #ffffff;
+}
+
+.v2 {
+	display: inline;
+	position: relative;
+	left: 10px;
+	color: #ffffff;
+}
+
+.v1 {
+	display: inline;
+	position: relative;
+	left: 0px;
+	color: #ffffff;
+}
+
+.detailtitle {
+	position: relative;
+	font-size: 300%;
+	color: #ffffff;
+	top: 55px;
+	left: 4%;
+}
+
+.topdetail {
+	position: relative;
+	width: 160%;
+	height: 850px;
+	left: 0px;
+	background-image: linear-gradient(to top, #000033, #003300, #330000);
+	font-family: cambria;
+	z-index: 10000px;
+}
+.alldetail {
+	position: absolute;
+	width: 100%;
+	top: -29px;
+	background-color: none;
+	left: -4%;
+}
+
+.gameownratingstar {
+        position: relative;
+        top: -130px;
+        left: 55px;
+        width: 17px;
+}
+
+.gameownrating {
+        font-size: 90%;
+        position: relative;
+        display: inline-block;
+        left: 0px;
+        bottom: 0px;
+}
+hr {
+	position: relative;
+	margin-top: -100px;
+	top: 0px;
+	opacity: 90%;
+	border: solid #eeeeee;
+	border-width: 0.05px;
+}
+.gameratingstar {
+	position: relative;
+	top: 3px;
+	right: 5px;
+	width: 20px;
+}
+
+.gamerating {
+        font-size: 80%;
+        position: relative;
+        display: inline-block;
+        left: 30px;
+        bottom: 135px;
+}
+
+.gamecertificate {
+        font-size: 80%;
+        position: relative;
+        display: inline-block;
+        left: 120px;
+        bottom: 155px;
+}
+
+.gameyear {
+	font-size: 80%;
+	position: relative;
+	display: inline-block;
+	left: 90px;
+	bottom: 155px;
+}
+
+.gamemetascore {
+        font-size: 80%;
+        position: relative;
+        display: inline-block;
+        left: 105px;
+        bottom: 154px;
+}
+
+a {
+	text-decoration: none;
+}
+.gametitle {
+	position: relative;
+	left: 105px;
+	margin-left: 17px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	bottom: 133px;
+}
+.numbering {
+  counter-reset: item;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.numbering li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.numbering li::before {
+  content: counter(item) '.';
+  counter-increment: item;
+  position: absolute;
+  top: 5px;
+  left: 91px;
+  width: 580px; 
+  text-align: left; 
+}
+
+
+.maincover {
+	width: 80px;
+	height: 120px;
+}
+
+.middlemain {
+	position: absolute;
+	top: 250px;
+	font-family: karumbi;
+	font-size: 200%;
+	width: 80%;
+	margin-left: 30px;
+	border: solid;
+	border-color:#cccccc;
+	border-width: 1px;
+}
+
+.yellowbox {
+	display: inline-block;
+	width: 5px;
+	height: 30px;
+	background-color: #ffcc00;
+	margin-right: 10px;
+}
+.topmain {
+	position: absolute;
+	top: 40px;
+	font-family: uroob;
+	padding: 7% 0% 0% 3%;
+}
+.toptitle{
+	padding-bottom: 0%;
+	font-size: 150%;
+}
+.hometitle {
+	display: inline-block;
+	padding-top: 0%;
+	font-size: 240%;
+}
+.bottomtitle {
+	font-size: 125%;
+	font-weight: -900;
+	color: #999999;
+}
+
+.searchimage {
+	position: absolute;
+	width: 30px;
+	top: 0px;
+	margin-top: 0px;
+}
+
+.dropdownlanguage {
+	font-family: purisa;
+	position: absolute;
+	right: 1%;
+	width: 43px;
+	margin-top: 15px;
+	color: white;
+	background-color: black;
+	border: none;
+}
+
+.signupbutton {
+	position: absolute;
+	right: 5.5%;
+	top: 5px;
+	height: 40px;
+	color: white;
+	background-color: black;
+	width: 100px;
+	border-radius: 5px 5px 5px 5px;
+	border: none;
+}
+
+.signupword {
+	font-family: purisa;
+	display: inline-block;
+	margin-left: 26px;
+	margin-top: 10px;
+}
+.signupworduser {
+        font-family: purisa;
+        display: inline-block;
+        margin-left: 26px;
+        margin-top: 10px;
+}
+.signupwordbutton {
+        font-family: purisa;
+        display: inline-block;
+        margin-left: 26px;
+        margin-top: 10px;
+}
+
+.signupimage {
+	border: none;
+	position: absolute;
+	left: -13px;
+	top: 2px;
+	width: 42px;
+}
+
+
+.imdbbutton {
+	border: none;
+	position: absolute;
+	width: 65px;
+	left: 10px;
+	top: 8px;
+	height: 35px;
+	background-color: black;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.watchbutton {
+	position: absolute;
+	right: 15%;
+	top: 5px;
+	height: 40px;
+	color: white;
+	background-color: black;
+	width: 120px;
+	border-radius: 5px 5px 5px 5px;
+	border: none;
+}
+
+.watchword {
+	font-family: purisa;
+	font-size: 120%;
+	display: inline-block;
+	margin-top: 4px;
+	right: 19%;
+}
+
+.watchimage {
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	width: 15px;
+	right: 24%;
+}
+
+.allsearch {
+	font-family: uroob;
+	position: absolute;
+	display: inline-block;
+	background-color: white;
+	top: 10px;
+	left: 180px;
+	margin-right: 2%;
+	right: 30%;
+	height: 35px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.searchbutton {
+	font-family: uroob;
+	font-size: 120%;
+	position: absolute;
+	right: 5%;
+	width: 30px;
+	height: 100%;
+	border: none;
+	background-color: white;
+	top: 5px;
+	height: 30px;
+
+}
+
+.searchbar {
+	font-family: purisa;
+	font-size: 105%;
+	position: relative;
+	width: 70%;
+	margin-top: 5px;
+	border: none;
+	left: 110px;
+	height: 50%;
+}
+
+.dropdownsearch {
+	font-family: purisa;
+	font-size: 105%;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	width: 110px;
+	height: 25px;
+	background-color: white;
+	text-align: center;
+	border: none;
+}
+
+.menuword {
+	font-family: purisa;
+	font-size: 120%;
+        display: inline-block;
+        margin-top: 0%;
+        right: 0%;
+}
+.menuicon {
+        position: absolute;
+        left: 5%;
+        top: 20%;
+        width: 25px;
+        right: 24%;
+}
+.menu {
+        position: absolute;
+        left: 90px;
+        top: 5px;
+        height: 40px;
+        color: white;
+        background-color: black;
+        width: 100px;
+        border-radius: 5px 5px 5px 5px;
+	border: none;
+}
+
+.imdb {
+	position: absolute;
+	left: 2%;
+	top: -40%;
+	width: 100%;
+	height: 180%;
+}
+
+.navigation {
+	font-family: uroob;
+	background-color: #000000;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	color: #ffffff;
+}
+.main {
+	position: relative;
+	background-color: #ffffff;
+	display: inline-block;
+	left: 2.5%;
+	width: 62.5%;
+	height: 90%;
+}
+.side {
+	position: absolute;
+	font-family: purisa;
+	font-size: 160%;
+	background-color: #ffffff;
+	display: inline-block;
+	top: 940px;
+	right: 2.5%;
+	width: 32.5%;
+	height: 800px;
+}
+.all {
+	position: absolute;
+	width: 100%;
+	background-color: #000000;
+}
+@media(max-width: 1280px) {
+	.side {
+		margin-right: 0%;
+		right: 0%;
+		width: 32.5%;
+	}
+	.main {
+		margin-left: 0%;
+		left: 0%;
+		right: 0%;
+		width: 65%;
+	}
+	.alldetail {
+		left: 0%;
+	}
+	.topdetail {
+		width: 155%;
+	}
+	.topmain {
+		width: 81.5%;
+	}
+	.blackbottomdetail {
+		width: 155%;
+	}
+	.detailtitle {
+		width: 70%;
+		font-size: 280%;
+	}
+
+	.showerandhider {
+	position: relative;
+	font-family: Lato Hairline;
+	border: none;
+	border-width: 0.0001px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+	margin-left: 1%;
+	left: 40%;
+}
+
+
+}
+@media(max-width: 1023px) {
+	.side {
+		display: none;
+	}
+	.main {
+		width: 100%;
+	}
+	.watchbutton {
+		display: none;
+	}
+	.menuword {
+		display: none;
+	}
+	.menu {
+		left: 10px;
+		width: 20px;
+	}
+	.imdbbutton {
+		left: 40px;
+	}
+	.allsearch {
+		display: inline;
+		position: absolute;
+		left: 110px;
+		right: 22%;
+	}
+	.searchbutton {
+		position: absolute;
+	}
+	.topdetail {
+		width: 100%;
+	}
+	.topmain {
+		width: 74%;
+	}
+	.topgallery {
+		display: none;
+	}
+	.detailtrailer {
+		width: 87%;
+	}
+	        .castlink {
+                display: none;
+        }
+        .userlink {
+                display: none;
+        }
+        .trivialink {
+                display: none;
+        }
+	.topdetailgenre {
+		width: 100%;
+	}
+	.topstory {
+		width: 100%;
+	}
+	.topwriters {
+		width: 100%;
+	}
+	.l1 {
+		display: none;
+	}
+	.l2 {
+		display: none;
+	}
+	.topratings {
+	        position: relative;
+	        font-size: 120%;
+	        top: 550px;
+	        color: #ffffff;
+	        left: 40px;
+	}
+	.login {
+		left: 20%;
+	}
+	.loginimdb {
+		left: 25%;
+	}
+	.topdetail {
+		height: 1005px;
+	}
+	.blackbottomdetail {
+		width: 100%;
+	}
+
+
+
+}
+
+@media(max-width: 760px) {
+	.infotitle {
+		display: none;
+	}
+}
+
+
+@media(max-width: 599px) {
+	.searchbar{
+		display: none;
+	}
+	.dropdownsearch {
+		display: none;
+	}
+	.allsearch {
+		background-color: black;
+		color: white;
+	}
+	.searchbutton {
+		width: 40px;
+		color: white;
+		background-color: black;
+		margin-right: 3px;
+	}
+	.signupbutton {
+		right: 15%;
+		width: 20px;
+	}
+	.signupword {
+		display: none;
+	}
+	.dropdownlanguage {
+		right: 0%;
+		width: 37px;
+	}
+	.detailtitle {
+		font-size: 200%;
+	}
+	.v {
+		position:relative;
+		top: 35px;
+	}
+	.detailtopmain {
+		position: absolute;
+		width: 95%;
+	}
+	.detailcover {
+		position: relative;
+		top: 400px;
+		margin-top: 0px;
+		left: 2%;
+		width: 25%;
+		height: 200px;
+	}
+	.detailtitle {
+		width: 100%;
+	}
+	.detailtrailer {
+		position: absolute;
+		left: 2%;
+		margin-bottom: 0px;
+		width: 100%;
+		top: 60px;
+		z-index: 1;
+	}
+	.detailtrailer iframe {
+	        position: relative;
+        	top: -20px;
+        	left: 0%;
+        	width: 100%;
+		z-index: 0;
+	}
+
+
+	.topdetailgenre {
+		position: relative;
+		left: 30%;
+		margin-top: 0px;
+		top: 190px;
+	}
+	.topstory {
+		position: relative;
+		left: 30%;
+		top: 190px;
+	}
+	.topwriters {
+		position: relative;
+		left: 30%;
+		top: 245px;
+	}
+	.topstars {
+		position: relative;
+		left: 30%;
+	       top: 165px;	
+	}
+	.topratings {
+		position: relative;
+		top: 255px;
+		left: 4%;
+	}
+	.topicword {
+		display: none;
+	}
+	.detailvideoimage2 {
+		display: none;
+	}
+	.detailvideoimage1 {
+		width: 80%;
+	}
+	.arrowrightvideoimage {
+		right: 5%;
+	}
+	.arrowleftvideoimage {
+		left: 2%;
+	}
+	.detailcastimage {
+		margin-right: 5%;
+		margin-bottom: 20%;
+	}
+	.blackbottomdetail {
+		width: 100%;
+	}
+	.showerandhider {
+	display: none;
+	font-family: Lato Hairline;
+	border: none;
+	border-width: 0.0001px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+	left: 0%;
+	bottom: 90%;
+}
+	.blackbottomhome {
+		top: 13000px;
+		width: 100%;
+	}
+	.topmain {
+		width: 50%;
+		left: 0px;
+		font-size: 80%;
+	}
+	.middlemain {
+		width: 50%;
+		left: -20px;
+		border: none;
+	}
+	.gamemetascore {
+		left: 115px;
+	}
+	.gameyear {
+		left: 100px;
+	}
+	.gamecertificate {
+		left: 130px;
+	}
+	.gamerating {
+		position: absolute;
+		left: 95px;
+		bottom: 30px;
+	}
+	.gameratingstar {
+		position: absolute;
+		left: 45px;
+		bottom: 30px;
+	}
+	.gameownrating {
+		display: none;
+		position: absolute;
+		left: 90px;
+		bottom: -40px;
+	}
+	.homeratingstar {
+		display: none;
+		position: relative;
+		left: 95px;
+		top: 50px;
+	}
+	.homeratingvalue {
+		display: none;
+	}
+	hr {
+		width: 200%;
+	}
+	.signupworduser {
+		font-family: purisa;
+	        display: inline-block;
+		position: absolute;
+	        margin-left: 26px;
+	        margin-top: 0px;
+		margin-right: 26px;
+		right: 20px;
+	}
+	.signupwordbutton {
+		position: absolute;
+		margin-top: 15px;
+		right: 0px;
+		top: 20px;
+	}
+	.blackbottomdetail {
+		top: 6100px;
+	}
+	}
