@@ -18,6 +18,7 @@ import addwatchlist from "../assets/addwatchlist.png";
 import add from "../assets/add.png";
 import { useNavigate } from "react-router-dom";
 import HomeRate from "./HomeRate.jsx";
+import loadhome from "../assets/loadhome.gif";
 
 
 
@@ -91,6 +92,8 @@ return (
 
 	</div>
 	<div className={styles.middlemain}>
+		{error && <p> Ezra site request error code 77 </p>}
+	{isLoading && <img src={loadhome} className={styles.loadhome} />}
 	<ol className={styles.numbering}>
 	{games
 		.sort( (a, b) => 
