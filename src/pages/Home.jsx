@@ -78,9 +78,9 @@ return (
 	{ user ?
 	<div>
 	{ !hider  ? (
-	<button className={styles.showerandhider} onClick={() => setHider(true)}>Hide games You've rated</button>
+	<button className={styles.showerandhider} onClick={() => setHider(true)}>Show Only Games You've Rated</button>
 	) : (
-<button className={styles.showerandhider} onClick={() => setHider(false)}>Show all the games </button>
+<button className={styles.showerandhider} onClick={() => setHider(false)}>Show All The Games </button>
 	)}
 	</div>
 		: (
@@ -114,7 +114,7 @@ return (
 				return game;
 			}
 			return hider ?
-				!(game.ratings[0] ? game.ratings.map( rate => ( rate => rate.username.includes(user))
+				(game.ratings[0] ? game.ratings.map( rate => ( rate => rate.username.includes(user))
 				 ) 
 				: null)
 				: game
