@@ -917,6 +917,7 @@ display: none;
 	left: 0px;
 	background-image: linear-gradient(to top, #000033, #003300, #330000);
 	font-family: cambria;
+	font-family: 'Tilt Prism', cursive;
 	z-index: 10000px;
 }
 .alldetail {
@@ -1077,6 +1078,7 @@ a {
 
 .dropdownlanguage {
 	font-family: purisa;
+	font-family: 'Gugi', cursive;
 	position: absolute;
 	right: 1%;
 	width: 43px;
@@ -1100,18 +1102,21 @@ a {
 
 .signupword {
 	font-family: purisa;
+	font-family: 'Gugi', cursive;
 	display: inline-block;
 	margin-left: 26px;
 	margin-top: 10px;
 }
 .signupworduser {
         font-family: purisa;
+	font-family: 'Gugi', cursive;
         display: inline-block;
         margin-left: 26px;
         margin-top: 10px;
 }
 .signupwordbutton {
         font-family: purisa;
+	font-family: 'Gugi', cursive;
         display: inline-block;
         margin-left: 26px;
         margin-top: 10px;
@@ -1151,6 +1156,7 @@ a {
 
 .watchword {
 	font-family: purisa;
+	font-family: 'Gugi', cursive;
 	font-size: 120%;
 	display: inline-block;
 	margin-top: 4px;
@@ -1167,6 +1173,7 @@ a {
 
 .allsearch {
 	font-family: uroob;
+	font-family: 'Gugi', cursive;
 	position: absolute;
 	display: inline-block;
 	background-color: white;
@@ -1180,6 +1187,7 @@ a {
 
 .searchbutton {
 	font-family: uroob;
+	font-family: 'Gugi', cursive;
 	font-size: 120%;
 	position: absolute;
 	right: 5%;
@@ -1194,6 +1202,7 @@ a {
 
 .searchbar {
 	font-family: purisa;
+	font-family: 'Gugi', cursive;
 	font-size: 105%;
 	position: relative;
 	width: 70%;
@@ -1205,6 +1214,7 @@ a {
 
 .dropdownsearch {
 	font-family: purisa;
+	font-family: 'Gugi', cursive;
 	font-size: 105%;
 	position: absolute;
 	top: 5px;
@@ -1218,6 +1228,7 @@ a {
 
 .menuword {
 	font-family: purisa;
+	font-family: 'Gugi', cursive;
 	font-size: 120%;
         display: inline-block;
         margin-top: 0%;
@@ -1252,6 +1263,7 @@ a {
 
 .navigation {
 	font-family: uroob;
+	font-family: 'Gugi', cursive;
 	background-color: #000000;
 	display: inline-block;
 	width: 100%;
