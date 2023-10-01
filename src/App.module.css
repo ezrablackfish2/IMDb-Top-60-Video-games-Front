@@ -1029,8 +1029,9 @@ a {
 .middlemain {
 	position: absolute;
 	top: 250px;
-	font-family: karumbi;
-	font-size: 200%;
+	font-family: 'Tilt Prism', cursive;
+	font-family: 'Satisfy', cursive;
+	font-size: 180%;
 	width: 80%;
 	margin-left: 30px;
 	border: solid;
