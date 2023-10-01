@@ -663,6 +663,7 @@ display: none;
 
 .middledetail {
 	font-family: purisa;
+	font-family: 'Bellota', cursive;
 	font-size: 120%;
 	background-color: #ffffff;
 	position: absolute;
@@ -747,6 +748,7 @@ display: none;
 
 .topvideos {
 	font-family: uroob;
+	font-family: 'Itim', cursive;
 	position: relative;
 	left: 65px;
 	top: 95px;
@@ -759,6 +761,7 @@ display: none;
 }
 .topphotos {
         font-family: uroob;
+	font-family: 'Itim', cursive;
         position: relative;
         left: 65px;
         top: 100px;
@@ -788,6 +791,7 @@ display: none;
 
 .topratings {
 	font-family: uroob;
+	font-family: 'Itim', cursive;
 	font-size: 140%;
         top: -90px;
         position: absolute;
