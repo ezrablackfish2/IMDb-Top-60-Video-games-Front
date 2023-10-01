@@ -1607,12 +1607,12 @@ a {
 	.gamerating {
 		position: absolute;
 		left: 95px;
-		bottom: 30px;
+		bottom: 60px;
 	}
 	.gameratingstar {
 		position: absolute;
 		left: 45px;
-		bottom: 30px;
+		bottom: 95px;
 	}
 	.gameownrating {
 		display: none;
