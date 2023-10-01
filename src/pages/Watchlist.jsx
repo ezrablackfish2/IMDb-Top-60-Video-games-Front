@@ -53,7 +53,7 @@ function Watchlist({ user, token, watchlistSuccess, setWatchlistSuccess, setWatc
 		
 
 		try {
-			const response = await axios.put(`https://imdb-top-60-video-games-ezra.onrender.com/watchlist/`, watchlistData,
+			const response = await axios.put(`https://imdb-top-60-video-games-ezra.onrender.com/${id}/watchlist/`, watchlistData,
         		{
 				headers: {
 				'Content-Type': 'application/json',
