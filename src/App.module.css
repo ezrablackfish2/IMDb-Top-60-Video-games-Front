@@ -1304,6 +1304,7 @@ a {
 .side {
 	position: absolute;
 	font-family: purisa;
+	font-family: 'Bellota', cursive;
 	font-size: 160%;
 	background-color: #ffffff;
 	display: inline-block;
@@ -1349,6 +1350,7 @@ a {
 	.showerandhider {
 	position: relative;
 	font-family: Lato Hairline;
+	font-family: 'Playball', cursive;
 	border: none;
 	border-width: 0.0001px;
 	border-radius: 10px 10px 10px 10px;
@@ -1574,6 +1576,7 @@ a {
 	.showerandhider {
 	display: none;
 	font-family: Lato Hairline;
+	font-family: 'Playball', cursive;
 	border: none;
 	border-width: 0.0001px;
 	border-radius: 10px 10px 10px 10px;
@@ -1635,6 +1638,7 @@ a {
 	}
 	.signupworduser {
 		font-family: purisa;
+		font-family: 'Bellota', cursive;
 	        display: inline-block;
 		position: absolute;
 	        margin-left: 26px;
