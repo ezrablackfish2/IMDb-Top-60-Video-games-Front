@@ -65,6 +65,22 @@ function Home( {search, user, token,  loggedin, rateOn, setRateOn, darkoverlay, 
 		}
 	}, []);
 
+	function rateHider(rate) {
+		let m = 0;
+		console.log(rate.length);
+		while (m < rate.length) {
+		if (rate[m] !== null) {
+			if (rate[m].username.includes(user)) {
+				return (1);
+			}
+		}
+			m += 1;
+		}
+		return (-1);
+	}
+
+
+
 
 return (
 	<>
@@ -115,8 +131,7 @@ return (
 				return (game);
 			}
 			return shower ?
-				(game.watchlists[0] ? game.watchlists.map( watchlist => ( watchlist => watchlist.username.includes(user))
-				 ) 
+				(game.watchlists[0] !== undefined ? game.watchlists.some(element => element != null && element.username.includes(user)) 
 				: null)
 				: game
 		})
@@ -125,8 +140,7 @@ return (
                                 return (game);
                         }
                         return hider ?
-                                (game.ratings[0] ? game.ratings.map( watchlist => ( watchlist => watchlist.username.includes(user))
-                                 )
+                                (game.ratings[0] !== undefined ? game.ratings.some(element => element != null && element.username.includes(user))
                                 : null)
                                 : game
                 })
@@ -140,7 +154,7 @@ return (
 		<a href={`/${game.id}`}>
 		{user ?
 		<div>
-		{ game.watchlists[0] ? (
+		{ game.watchlists[0] !== undefined   ? (
 			<div>
 			{ game.watchlists.map(watchlist => (
 				<div>
@@ -197,7 +211,7 @@ return (
 			<span className={styles.homeratelink}>
 			{ loggedin ?
 			<span>
-			{ game.ratings[0] ?
+			{ game.ratings[0]  !== undefined  ?
 			(<span>
 				{game.ratings.map(rate => rate != null ? 
 					<span></span>

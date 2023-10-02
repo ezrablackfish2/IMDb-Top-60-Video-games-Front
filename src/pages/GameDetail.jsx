@@ -132,7 +132,7 @@ function GameDetail({ user, token, loggedin, rateOn, setRateOn, darkoverlay, set
 		<div className={styles.v3}><span className={styles.d2}>.</span> {VG.certificate}</div>
 		</div>
 		<div className={styles.detailtopmain}>
-		<VideoPlayer film = { VG.videos[0] ? VG.videos[0].video : "" } poster= { VG.thumbnail[0] ? VG.thumbnail[0].thumbnail : black} />
+		<VideoPlayer film = { VG.videos[0] !== undefined ? VG.videos[0].video : "" } poster= { VG.thumbnail[0] !== undefined ? VG.thumbnail[0].thumbnail : black} />
 		<div className={styles.topgallery}>
 		<a className={styles.topvideos}>
 		Videos
@@ -156,15 +156,15 @@ function GameDetail({ user, token, loggedin, rateOn, setRateOn, darkoverlay, set
 		<div>
 			{ user ? (
 		<div>
-		{VG.watchlists[0] ? (
+		{VG.watchlists[0] !== undefined ? (
 			<div>
-			{VG.watchlists.map( watchlist =>
-				watchlist != null ?
-				watchlist.your_watchlist == true ? 
-				<img onClick={WatchlistRemover} src={watchlistimage} className={styles.watchlistimage}/> 
-			 : 
-				<img onClick={Watchlister} className={styles.watchlistimage} src={addwatchlist} />)}
-			: null
+			{
+                                VG.watchlists.some(element => element != null && element.your_watchlist == true) ?
+                                (<div onClick={WatchlistRemover}>  <img className={styles.watchlistimage} src={watchlistimage}/> </div>)
+                                :
+                                (<div onClick={Watchlister}>  <img className={styles.watchlistimage} src={addwatchlist}/> </div>)
+
+                        }
 			</div>
 		)
 			: 
