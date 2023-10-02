@@ -44,7 +44,6 @@ function App() {
 	}
 
   return (
-	  <>
 	  <div className={styles.all}>
 	  <div className={styles.navigation}>
 	  <SearchBar search={search} setSearch={setSearch} user={user} token={token} formData={loginData} setFormDta={setLoginData} loggedin={loggedin} setlogin={setlogin} shower={shower} setShower={setShower}/>
@@ -62,7 +61,6 @@ function App() {
 	  </div>
 	  <div className={styles.side}><span className={styles.yellowbox}></span>More to explore</div>
 	  </div>
-	  </>
   );
 }
 

@@ -1,3 +1,9 @@
+.ezra {
+	position: absolute;
+	right: 0%;
+	top: 50%;
+}
+
 .adder {
 	color: #ffff00;
 }
@@ -1077,6 +1083,7 @@ a {
 }
 .topmain {
 	position: absolute;
+	left: 0px;
 	top: 40px;
 	font-family: uroob;
 	font-family: 'Black Ops One', cursive;
@@ -1320,32 +1327,37 @@ a {
 }
 .all {
 	position: absolute;
+	left: 0px;
 	width: 100%;
 	background-color: #000000;
 }
+
 @media(max-width: 1280px) {
+	.all {
+		width: 100%;
+	}
 	.side {
 		margin-right: 0%;
 		right: 0%;
-		width: 35%;
+		width: 30%;
 	}
 	.main {
 		margin-left: 0%;
 		left: 0%;
 		right: 0%;
-		width: 65%;
+		width: 60%;
 	}
 	.alldetail {
 		left: 0%;
 	}
 	.topdetail {
-		width: 155%;
+		width: 100%;
 	}
 	.topmain {
 		width: 81.5%;
 	}
 	.blackbottomdetail {
-		width: 155%;
+		width: 100%;
 	}
 	.detailtitle {
 		width: 70%;
@@ -1378,12 +1390,16 @@ a {
 
 }
 @media(max-width: 1023px) {
+	.all {
+		width: 100%;
+	}
 	.side {
-		display: none;
+		left: 0%;
 		width: 0%;
+		display: none;
 	}
 	.main {
-		width: 100%;
+		width: 60%;
 	}
 	.watchbutton {
 		display: none;
@@ -1406,6 +1422,9 @@ a {
 	}
 	.searchbutton {
 		position: absolute;
+	}
+	.alldetail {
+		width: 100%;
 	}
 	.topdetail {
 		width: 100%;
@@ -1623,19 +1642,17 @@ a {
 		width: 100%;
 	}
 	.main {
-		position: relative;
+		background-color: #000000;
 		left: 0px;
 		width: 100%;
 	}
 	.topmain {
-		position: absolute;
 		width: 100%;
 		left: 0px;
 		font-size: 80%;
 	}
 	.middlemain {
-		position: absolute;
-		width: 50%;
+		width: 100%;
 		left: 0px;
 		border: none;
 	}
@@ -1674,7 +1691,7 @@ a {
 		display: none;
 	}
 	hr {
-		width: 100%;
+		width: 50%;
 	}
 	.signupworduser {
 		font-family: purisa;
