@@ -142,10 +142,18 @@ return (
 		{ game.watchlists[0] ? (
 			<div>
 			{ game.watchlists.map(watchlist => (
+				<div>
+				{
+				watchlist != null ? (
 				watchlist.your_watchlist == true ? 
 				<img className={styles.homewatchlist} src={watchlistimage} />
 				:
 				<img className={styles.homewatchlist} src={addwatchlist} />
+				)
+					:
+					(null)
+				}
+				</div>
 			)
 			)}
 			</div>
