@@ -114,7 +114,7 @@ return (
 				return game;
 			}
 			return hider ?
-				(game.ratings[0] ? game.ratings.map( rate => ( rate => rate.username.includes(user))
+				(game.ratings[0] ? game.ratings.map( rate => ( rate => rate != null ? rate.username.includes(user) : null)
 				 ) 
 				: null)
 				: game
