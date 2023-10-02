@@ -65,6 +65,7 @@ function Home( {search, user, token,  loggedin, rateOn, setRateOn, darkoverlay, 
 		}
 	}, []);
 
+
 return (
 	<>
 	<div className={styles.topmain}>
@@ -111,16 +112,6 @@ return (
 		})
 		.filter((game) => {
 			if (!user) {
-				return game;
-			}
-			return hider ?
-				(game.ratings[0] ? game.ratings.map( rate => ( rate => rate != null ? rate.username.includes(user) : null)
-				 ) 
-				: null)
-				: game
-		})
-		.filter((game) => {
-			if (!user) {
 				return (game);
 			}
 			return shower ?
@@ -129,6 +120,16 @@ return (
 				: null)
 				: game
 		})
+		.filter((game) => {
+                        if (!user) {
+                                return (game);
+                        }
+                        return hider ?
+                                (game.ratings[0] ? game.ratings.map( watchlist => ( watchlist => watchlist.username.includes(user))
+                                 )
+                                : null)
+                                : game
+                })
 
 		.map(game =>
 		(<li key={game.id}>
