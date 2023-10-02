@@ -1,3 +1,9 @@
+.allhome {
+	display: flex;
+	position: absolute;
+	width: 20%;
+}
+
 .ezra {
 	position: absolute;
 	right: 0%;
@@ -357,7 +363,7 @@
 	font-family: 'Caveat', cursive;
         position: absolute;
         background-color: #000000;
-        width: 160%;
+        width: 168%;
 	left: -5%;
         height: 300px;
         top: 9350px;
@@ -1048,7 +1054,7 @@ a {
   position: absolute;
   top: 5px;
   left: 91px;
-  width: 580px; 
+  width: 20%; 
   text-align: left; 
 }
 
@@ -1351,7 +1357,7 @@ a {
 		left: 0%;
 	}
 	.topdetail {
-		width: 100%;
+		width: 165%;
 	}
 	.topmain {
 		width: 81.5%;
@@ -1427,7 +1433,7 @@ a {
 		width: 100%;
 	}
 	.topdetail {
-		width: 100%;
+		width: 165%;
 	}
 	.topmain {
 		width: 74%;
@@ -1629,8 +1635,8 @@ a {
 	bottom: 90%;
 }
 	.blackbottomhome {
-		top: 10500px;
-		width: 100%;
+		top: 11000px;
+		width: 150%;
 	}
 	.all {
 		position: absolute;
@@ -1643,8 +1649,7 @@ a {
 	}
 	.main {
 		background-color: #000000;
-		left: 0px;
-		width: 100%;
+
 	}
 	.topmain {
 		width: 100%;
@@ -1652,7 +1657,7 @@ a {
 		font-size: 80%;
 	}
 	.middlemain {
-		width: 100%;
+		width: 70%;
 		left: 0px;
 		border: none;
 	}
@@ -1718,5 +1723,16 @@ a {
 	.sortall {
 		position: absolute;
 		left: 0%;
+	}
+	.side {
+		display: none;
+	}
+	.alldetail {
+		width: 50%;
+	}
+	.topdetail {
+		display: flex;
+		position: relative;
+		width: 300%;
 	}
 	}
