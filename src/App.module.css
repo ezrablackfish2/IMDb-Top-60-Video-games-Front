@@ -1635,12 +1635,11 @@ a {
 	}
 	.middlemain {
 		position: absolute;
-		width: 100%;
+		width: 50%;
 		left: 0px;
 		border: none;
 	}
 	.gamemetascore {
-		font-size: 100%;
 		left: 115px;
 	}
 	.gameyear {
