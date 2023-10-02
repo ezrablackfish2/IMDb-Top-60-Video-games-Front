@@ -158,10 +158,13 @@ function GameDetail({ user, token, loggedin, rateOn, setRateOn, darkoverlay, set
 		<div>
 		{VG.watchlists[0] ? (
 			<div>
-			{VG.watchlists.map( watchlist => watchlist.your_watchlist == true ? 
+			{VG.watchlists.map( watchlist =>
+				watchlist != null ?
+				watchlist.your_watchlist == true ? 
 				<img onClick={WatchlistRemover} src={watchlistimage} className={styles.watchlistimage}/> 
 			 : 
 				<img onClick={Watchlister} className={styles.watchlistimage} src={addwatchlist} />)}
+			: null
 			</div>
 		)
 			: 
