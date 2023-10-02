@@ -205,7 +205,7 @@ return (
 				)}
 			</span>)
 			:
-			(<span className={styles.gameownrating}> Rate</span>)
+			(<span className={styles.gameownrating}></span>)
 			}
 			</span>
 			:
