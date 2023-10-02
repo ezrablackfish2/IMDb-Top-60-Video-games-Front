@@ -1327,7 +1327,7 @@ a {
 	.side {
 		margin-right: 0%;
 		right: 0%;
-		width: 32.5%;
+		width: 35%;
 	}
 	.main {
 		margin-left: 0%;
@@ -1364,12 +1364,23 @@ a {
 	margin-left: 1%;
 	left: 40%;
 }
+.all {
+	position: absolute;
+	width: 100%;
+}
+	.navigation {
+		position: relative;
+		width: 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
 
 
 }
 @media(max-width: 1023px) {
 	.side {
 		display: none;
+		width: 0%;
 	}
 	.main {
 		width: 100%;
@@ -1594,14 +1605,30 @@ a {
 		top: 10500px;
 		width: 100%;
 	}
+	.all {
+		position: absolute;
+		width: 100%;
+		left: 0px;
+	}
+	.navigation {
+		position: absolute;
+		width: 100%;
+	}
+	.main {
+		position: relative;
+		left: 0px;
+		width: 100%;
+	}
 	.topmain {
-		width: 50%;
+		position: absolute;
+		width: 100%;
 		left: 0px;
 		font-size: 80%;
 	}
 	.middlemain {
-		width: 50%;
-		left: -20px;
+		position: absolute;
+		width: 100%;
+		left: 0px;
 		border: none;
 	}
 	.gamemetascore {
@@ -1639,7 +1666,7 @@ a {
 		display: none;
 	}
 	hr {
-		width: 200%;
+		width: 100%;
 	}
 	.signupworduser {
 		font-family: purisa;
@@ -1662,5 +1689,9 @@ a {
 	}
 	.maincover {
 		position: relative;
+	}
+	.sortall {
+		position: absolute;
+		right: 0%;
 	}
 	}
