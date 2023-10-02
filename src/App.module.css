@@ -1462,6 +1462,14 @@ a {
 	.blackbottomdetail {
 		width: 100%;
 	}
+	.all {
+		position: absolute;
+		width: 100%;
+	}
+	.navigation {
+		position: relative;
+		width: 100%;
+	}
 
 
 
@@ -1611,7 +1619,7 @@ a {
 		left: 0px;
 	}
 	.navigation {
-		position: absolute;
+		position: relative;
 		width: 100%;
 	}
 	.main {
@@ -1632,6 +1640,7 @@ a {
 		border: none;
 	}
 	.gamemetascore {
+		font-size: 100%;
 		left: 115px;
 	}
 	.gameyear {
@@ -1692,6 +1701,6 @@ a {
 	}
 	.sortall {
 		position: absolute;
-		right: 0%;
+		left: 0%;
 	}
 	}
