@@ -201,7 +201,7 @@ return (
 				{game.ratings.map(rate => rate != null ? 
 					<span></span>
 	: 
-					<span className={styles.gameownrating}> Rate</span>
+					<span className={styles.gameownrating}></span>
 				)}
 			</span>)
 			:
