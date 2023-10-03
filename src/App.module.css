@@ -349,13 +349,13 @@
 	font-family: 'Caveat', cursive;
 	position: relative;
 	background-color: #000000;
-	width: 100%;
-	right: 0%;
+	width: 60%;
+	right: -20%;
 	height: 300px;
 	top: 5000px;
 	color: #ffffff;
 	margin-top: 50%;
-	border-radius: none;
+	border-radius: 25px 25px 25px 25px;
 }
 
 .blackbottomhome {
