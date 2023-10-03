@@ -225,7 +225,7 @@
 	position: relative;
 	top: -10px;
 	left: -20px;
-	width: 90px;
+	width: 100%;
 }
 
 .signinlink {
@@ -254,8 +254,8 @@
 }
 
 .watchlistimage {
-	position: absolute;
-	width: 100px;
+	position: relative;
+	width: 150%;
 	opacity: 70%;
 }
 
@@ -272,7 +272,7 @@
 }
 
 .youratingstar {
-	width: 32px;
+	width: 15%;
 }
 
 .darkoverlay {
@@ -349,12 +349,13 @@
 	font-family: 'Caveat', cursive;
 	position: relative;
 	background-color: #000000;
-	width: 160%;
-	left: 0%;
+	width: 4000%;
+	right: -40%;
 	height: 300px;
 	top: 5000px;
 	color: #ffffff;
 	margin-top: 50%;
+	border-radius: 25px 25px 25px 25px;
 }
 
 .blackbottomhome {
@@ -733,7 +734,7 @@ display: none;
 }
 
 .topwriters {
-	font-size: 120%;
+	font-size: 100%;
 	position: relative;
 	top: 490px;
 	color: #ffffff;
@@ -949,7 +950,7 @@ display: none;
 
 .topdetail {
 	position: relative;
-	width: 160%;
+	width: 150%;
 	height: 850px;
 	left: 0px;
 	background-image: linear-gradient(to top, #000033, #003300, #330000);
@@ -960,7 +961,7 @@ display: none;
 .alldetail {
 	position: absolute;
 	width: 100%;
-	top: -29px;
+	top: -27px;
 	background-color: none;
 	left: -4%;
 }
@@ -1324,12 +1325,12 @@ a {
 	font-family: purisa;
 	font-family: 'Bellota', cursive;
 	font-size: 160%;
-	background-color: #ffffff;
+	background-color: #ffffcc;
 	display: inline-block;
 	top: 940px;
 	right: 2.5%;
 	width: 32.5%;
-	height: 800px;
+	height: 1800px;
 }
 .all {
 	position: absolute;
@@ -1363,7 +1364,9 @@ a {
 		width: 81.5%;
 	}
 	.blackbottomdetail {
-		width: 100%;
+		right: 0%;
+		border-radius: 0%;
+		width: 165%;
 	}
 	.detailtitle {
 		width: 70%;
@@ -1495,6 +1498,12 @@ a {
 		position: relative;
 		width: 100%;
 	}
+	.middledetail {
+		width: 160%;
+	}
+	.blackbottomdetail {
+		width: 165%;
+	}
 
 
 
@@ -1510,6 +1519,8 @@ a {
 @media(max-width: 599px) {
 	.searchbar{
 		display: none;
+		left: 0px;
+		width: 0%;
 	}
 	.dropdownsearch {
 		display: none;
@@ -1544,13 +1555,14 @@ a {
 	}
 	.detailtopmain {
 		position: absolute;
-		width: 95%;
+		width: 100%;
+		right: 25%;
 	}
 	.detailcover {
 		position: relative;
 		top: 400px;
 		margin-top: 0px;
-		left: 2%;
+		left: 27%;
 		width: 25%;
 		height: 200px;
 	}
@@ -1559,7 +1571,7 @@ a {
 	}
 	.detailtrailer {
 		position: absolute;
-		left: 2%;
+		left: 25%;
 		margin-bottom: 0px;
 		width: 100%;
 		top: 60px;
@@ -1576,29 +1588,35 @@ a {
 
 	.topdetailgenre {
 		position: relative;
-		left: 30%;
+		left: 55%;
+		width: 60%;
 		margin-top: 0px;
 		top: 190px;
 	}
 	.topstory {
 		position: relative;
-		left: 30%;
+		font-size: 100%;
+		left: 55%;
+		width: 60%;
 		top: 190px;
 	}
 	.topwriters {
 		position: relative;
-		left: 30%;
+		font-size: 80%;
+		left: 55%;
+		width: 60%;
 		top: 245px;
 	}
 	.topstars {
 		position: relative;
-		left: 30%;
-	       top: 165px;	
+		left: 55%;
+		width: 60%;
+	       top: 175px;	
 	}
 	.topratings {
 		position: relative;
 		top: 255px;
-		left: 4%;
+		left: 30%;
 	}
 	.topicword {
 		display: none;
@@ -1620,7 +1638,7 @@ a {
 		margin-bottom: 20%;
 	}
 	.blackbottomdetail {
-		width: 100%;
+		width: 170%;
 	}
 	.showerandhider {
 	display: none;
@@ -1715,7 +1733,7 @@ a {
 		top: 20px;
 	}
 	.blackbottomdetail {
-		top: 6100px;
+		top: 6200px;
 	}
 	.maincover {
 		position: relative;
@@ -1728,11 +1746,18 @@ a {
 		display: none;
 	}
 	.alldetail {
-		width: 50%;
+		top: -18px;
+		width: 95%;
+		margin-left: 0px;
+		margin-right: 0px;
+		left: 3%
 	}
-	.topdetail {
-		display: flex;
-		position: relative;
-		width: 300%;
+	.links {
+		display: none;
+	}
+	.watchlistimage {
+		left: 115%;
+		width: 50%;
+		margin-top: 40px;
 	}
 	}
