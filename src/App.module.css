@@ -349,7 +349,7 @@
 	font-family: 'Caveat', cursive;
 	position: relative;
 	background-color: #000000;
-	width: 60%;
+	width: 100%;
 	right: -20%;
 	height: 300px;
 	top: 5000px;
@@ -950,7 +950,7 @@ display: none;
 
 .topdetail {
 	position: relative;
-	width: 150%;
+	width: 160%;
 	height: 850px;
 	left: 0px;
 	background-image: linear-gradient(to top, #000033, #003300, #330000);
