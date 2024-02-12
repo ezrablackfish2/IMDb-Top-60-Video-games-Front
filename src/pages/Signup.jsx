@@ -136,11 +136,12 @@ function Signup( {user, token, formData, setFormData, loggedin, setlogin} : Prop
 				<p><button onClick={remover}>Log Out</button></p>
 				</div>
 			) : (
+	    <div className={styles.form}>
 	    <div className={styles.login}>
+	    <a href="/"><img className={styles.loginimdb} src={imdb} /></a>
 	<p className={styles.rederror}>{errMsg}</p>
-      <h1>Create account</h1>
+      <h1 className={styles.formTitle}>Register</h1>
       <form onSubmit={handleSubmit}>
-	<img className={styles.signupimdb} src={imdb} />
 	<div className={styles.loginlabel}>
           <label>Your name</label>
 	</div>
@@ -182,6 +183,7 @@ function Signup( {user, token, formData, setFormData, loggedin, setlogin} : Prop
         <button className={styles.loginbutton} type="submit">Create your IMDb account</button>
       </form>
     </div>
+	</div>
 		)}
 	</>
   );

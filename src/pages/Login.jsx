@@ -93,10 +93,12 @@ function Login( {user, token, formData, setFormData, loggedin, setlogin} : Props
 				<p><button onClick={remover}>Log Out</button></p>
 				</div>
 			) : (
-				<>	
-				<img className={styles.loginimdb} src={imdb} />
+				<div className={styles.form}>
+				<div className={styles.imdbpic1}>
+				</div>
 				<div className={styles.login}>
-				<h1>Sign In</h1>
+				<a href="/"><img className={styles.loginimdb} src={imdb} /></a>
+				<h1 className={styles.formTitle}>Sign In</h1>
 				<p className={styles.rederror} ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive"><span className={styles.rederror}>{errMsg}</span></p>
  				<form onSubmit={handleSubmit}>
 				<div className={styles.loginlabel}>
@@ -129,7 +131,7 @@ function Login( {user, token, formData, setFormData, loggedin, setlogin} : Props
 			<button className={styles.signuplinkbutton} ><a href="/signup">Create your IMDb account</a></button>
 		</form>
 		</div>
-		</>
+		</div>
 		)}
 	</>
   );
