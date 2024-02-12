@@ -32,6 +32,7 @@ const VideoPlayer = ( {poster, film}: Props) => {
 
 
 	const toggleVideoPlayPause = () => {
+		try {
     	const player = playerRef.current;
     if (player) {
       if (isPlaying) {
@@ -41,6 +42,10 @@ const VideoPlayer = ( {poster, film}: Props) => {
       }
 		setIsPlaying(!isPlaying);
 	}
+		}
+		catch (error) {
+			console.error('An error occurred:', error);
+		}
 	};
 
 
