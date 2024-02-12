@@ -779,7 +779,7 @@ display: none;
 
 .detailphotoimage {
 	position: absolute;
-	width: 70%;
+	max-width: 70%;
 	border: solid;
 	border-color: #ffff00;
 	padding: 20px;
