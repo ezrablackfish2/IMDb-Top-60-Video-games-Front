@@ -1,3 +1,12 @@
+.castName {
+	display: inline-block;
+	position: relative;
+	left: -20%;
+	top: -25px;
+	font-family: "Rubik Glitch";
+	font-size: 12px;
+}
+
 .noPlayer {
 	display: none;
 }
@@ -520,7 +529,7 @@
 .detailcastimage {
 	position: relative;
 	margin-top: 5%;
-	margin-right: 30%;
+	margin-right: 20%;
 	border-radius: 100%;
 	width: 10%;
 }
@@ -583,14 +592,13 @@
 	width: 100%;
 	top: 0px;
 	height: auto;
-	min-height: 170px;
 }
 
 .play {
 	opacity: 100%;
 	width: 15%;
 	position: absolute;
-	left: 40%;
+	left: 45%;
 	margin-top: 17%;
 }
 
@@ -628,6 +636,7 @@ display: none;
 	bottom: -130%;
        left: 0%;
        z-index: 999;
+	width: 50px;
 }
 .arrowleftvideoimage:hover {
 	opacity: 100%;
@@ -638,8 +647,10 @@ display: none;
 	width: 5%;
 	height: 50px;
 	bottom: -130%;
-	right: 3%;
-	margin-left: -7%;
+	right: -10%;
+	margin-left: -27%;
+	z-index: 999;
+	width: 50px;
 }
 .arrowrightvideoimage:hover {
 	opacity: 100%;
@@ -668,7 +679,7 @@ display: none;
 .arrowleftphotoimage {
         opacity: 30%;
         position: absolute;
-        width: 5%;
+        width: 50px;
         height: 50px;
         margin-right: 0%;
         bottom: -300%;
@@ -681,7 +692,7 @@ display: none;
 .arrowrightphotoimage {
 	opacity: 15%;
         position: absolute;
-        width: 5%;
+        width: 50px;
         height: 50px;
         bottom: -300%;
         right: 13%;
@@ -1751,10 +1762,12 @@ a {
 		min-height: 40px;
 	}
 	.arrowrightvideoimage {
-		right: 5%;
+		right: -30%;
+		width: 50px;
 	}
 	.arrowleftvideoimage {
 		left: 2%;
+		width: 50px;
 	}
 	.detailcastimage {
 		margin-right: 5%;
@@ -1914,6 +1927,25 @@ a {
 	}
 	.middledetail {
 		font-size: 13px;
+	}
+	.detailcastimage {
+		width: 30%;
+	}
+	.castName {
+		display: none;
+	}
+	.casts {
+		display: flex;
+		position: relative;
+		overflow-x: scroll;
+		width: 100%;
+	}
+	.arrowleftphotoimage {
+		bottom: -200%;
+	}
+	.arrowrightphotoimage {
+		bottom: -200%;
+		right: 5%;
 	}
 	
 }

@@ -272,17 +272,13 @@ function GameDetail({ user, token, loggedin, rateOn, setRateOn, darkoverlay, set
 		</div>
 		<div className={styles.detailcast}>
 		<span className={styles.yellowbox}></span>TopCast
-		<div>
-		<img className={styles.detailcastimage} src={cast} />
-		<img className={styles.detailcastimage} src={cast} />
-		<img className={styles.detailcastimage} src={cast} />
-		<img className={styles.detailcastimage} src={cast} />
-		<img className={styles.detailcastimage} src={cast} />
-		<img className={styles.detailcastimage} src={cast} />
-		<img className={styles.detailcastimage} src={cast} />
-		<img className={styles.detailcastimage} src={cast} />
-		<img className={styles.detailcastimage} src={cast} />
-		<img className={styles.detailcastimage} src={cast} />
+		<div className={styles.casts}>
+		<img className={styles.detailcastimage} src={cast} />    <div className={styles.castName}>Cast Name</div>
+		<img className={styles.detailcastimage} src={cast} /><div className={styles.castName}>Cast Name</div>
+		<img className={styles.detailcastimage} src={cast} /><div className={styles.castName}>Cast Name</div>
+		<img className={styles.detailcastimage} src={cast} /><div className={styles.castName}>Cast Name</div>
+		<img className={styles.detailcastimage} src={cast} /><div className={styles.castName}>Cast Name</div>
+		<img className={styles.detailcastimage} src={cast} /><div className={styles.castName}>Cast Name</div>
 		</div>
 		<hr className={styles.detailhr}/>
 		<div className={styles.middlewriter}>
