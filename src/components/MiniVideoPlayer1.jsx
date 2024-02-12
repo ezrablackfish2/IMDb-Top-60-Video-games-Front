@@ -42,12 +42,15 @@ const VideoPlayer = ( {poster, film}: Props) => {
 
   return (
     <div className={styles.Player}>
+<span className={videoState !== 1 ? styles.noPlayer: styles.yesPlayer}>
+	  
       <YouTube 
 	  className={styles.detailvideoimage1} 
 	  videoId={videoId} 
 	  opts={opts} 
 	  onStateChange={onVideoStateChange}
 	  onReady={(e) => (playerRef.current = e.target)} />
+	  </span>
       {videoState !== 1  && (
         <div onClick={toggleVideoPlayPause}>
 	      <CustomPosterOverlay poster={poster}/>

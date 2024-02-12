@@ -304,7 +304,10 @@
 	position: relative;
 	top: -10px;
 	left: -20px;
-	width: 100%;
+	width: 60px;
+	border: none;
+	z-index: 999;
+	font-family: "protest riot";
 }
 
 .logout:hover {
@@ -1950,7 +1953,7 @@ a {
 		display: none;
 	}
 	.alldetail {
-		top: -18px;
+		top: -4px;
 		width: 100%;
 	}
 	.links {
