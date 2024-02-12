@@ -125,12 +125,14 @@ function GameDetail({ user, token, loggedin, rateOn, setRateOn, darkoverlay, set
 	return (
 		<div className={styles.alldetail}>
 		<div className={styles.topdetail}>
+		<span className={styles.toptop}>
 		<h1 className={styles.detailtitle}>{VG.title}</h1>
 		<div className={styles.v}>
 		<div className={styles.v1}>Video Game</div>
 		<div className={styles.v2}><span className={styles.d1}>. </span> {VG.year}</div>
 		<div className={styles.v3}><span className={styles.d2}>.</span> {VG.certificate}</div>
 		</div>
+		</span>
 		<div className={styles.detailtopmain}>
 		<VideoPlayer film = { VG.videos[0] !== undefined ? VG.videos[0].video : "" } poster= { VG.thumbnail[0] !== undefined ? VG.thumbnail[0].thumbnail : black} />
 		<div className={styles.topgallery}>
@@ -142,7 +144,7 @@ function GameDetail({ user, token, loggedin, rateOn, setRateOn, darkoverlay, set
 		</a>
 		</div>
 
-		<div>
+		<div className={styles.watchlogic}>
 		{watchlist ? 
 			(<div>
 			<Watchlist user={user} token={token} setWatchlistOn={setWatchlistOn} watchlistSuccess={watchlistSuccess} setWatchlistSuccess={setWatchlistSuccess} watchlist={watchlist} setWatchlist={setWatchlist} Remover={Remover}/>
@@ -241,6 +243,8 @@ function GameDetail({ user, token, loggedin, rateOn, setRateOn, darkoverlay, set
 		<a className={styles.topsharelink}><img className={styles.topshareimage} src={share}/></a>
 		</div>
 		</div>
+
+
 		<div className={styles.middledetail}>
 		<div className={styles.awards}>	
 		<div className={styles.awardimage}> </div>

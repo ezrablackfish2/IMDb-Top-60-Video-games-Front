@@ -369,7 +369,6 @@
 	position: relative;
 	background-color: #000000;
 	width: 100%;
-	right: -30%;
 	height: 300px;
 	top: 5000px;
 	color: #ffffff;
@@ -488,6 +487,7 @@
 	font-family: 'Amatic SC', cursive;
 	font-family: 'Nothing You Could Do', cursive;
 	font-family: 'Playball', cursive;
+	font-family: 'Comic Neue', cursive;
 	font-size: 80%;
 	position: relative;
 	margin-top: 2%;
@@ -521,7 +521,7 @@
 	position: absolute;
 	top: 1100px;
 	left: 5%;
-	width: 100%;
+	width: 80%;
 }
 
 .detailvideoimage1 {
@@ -578,7 +578,11 @@
 	width: 15%;
 	position: absolute;
 	left: 40%;
-	margin-top: 20%;
+	margin-top: 17%;
+}
+
+.play:hover {
+	cursor: pointer;
 }
 
 .Player {
@@ -603,12 +607,12 @@ display: none;
 
 
 .arrowleftvideoimage {
-	opacity: 70%;
+	opacity: 30%;
 	position: absolute;
 	width: 5%;
 	height: 50px;
 	margin-right: 0%;
-	bottom: -90%;
+	bottom: -130%;
        left: 0%;
        z-index: 999;
 }
@@ -616,11 +620,11 @@ display: none;
 	opacity: 100%;
 }
 .arrowrightvideoimage {
-	opacity: 70%;
+	opacity: 30%;
 	position: absolute;
 	width: 5%;
 	height: 50px;
-	bottom: -90%;
+	bottom: -130%;
 	right: 3%;
 	margin-left: -7%;
 }
@@ -644,17 +648,17 @@ display: none;
 .detailvideo {
 	position: absolute;
 	top: 150px;
-	width: 100%;
+	width: 80%;
 }
 
 
 .arrowleftphotoimage {
-        opacity: 70%;
+        opacity: 30%;
         position: absolute;
         width: 5%;
         height: 50px;
         margin-right: 0%;
-        bottom: -200%;
+        bottom: -300%;
        left: 3%;
 	z-index: 999;       
 }
@@ -662,11 +666,11 @@ display: none;
 	opacity: 100%;
 }
 .arrowrightphotoimage {
-	opacity: 70%;
+	opacity: 15%;
         position: absolute;
         width: 5%;
         height: 50px;
-        bottom: -200%;
+        bottom: -300%;
         right: 13%;
         margin-left: -7%;
 	z-index: 999;
@@ -720,7 +724,7 @@ display: none;
 	font-size: 120%;
 	background-color: #ffffff;
 	position: absolute;
-	width: 107%;
+	width: 80%;
 	height: 1000px;
 }
 .awards {
@@ -730,7 +734,7 @@ display: none;
 	border: solid;
 	border-color: #ffff00;
 	border-radius: 10px 10px 10px 10px;
-	width: 90%;
+	width: 70%;
 	padding: 10px;
 	position: absolute;
 	left: 4%;
@@ -852,6 +856,10 @@ display: none;
         color: #ffffff;
 }
 
+.topownrating:hover {
+	cursor: pointer;
+}
+
 .userlink {
 	margin-left: 12.5px;
 }
@@ -961,28 +969,32 @@ display: none;
 
 .detailtitle {
 	position: relative;
+	display: inline-block;
+	width: 80%;
 	font-size: 300%;
 	color: #ffffff;
-	top: 55px;
+	top: 15px;
 	left: 4%;
 }
 
 .topdetail {
 	position: relative;
-	width: 150%;
+	width: 100%;
 	height: 850px;
 	left: 0px;
 	background-image: linear-gradient(to top, #000033, #003300, #330000);
 	font-family: cambria;
 	font-family: 'Sedgwick Ave Display', cursive;
+	font-family: "Dhurjati";
+	font-family: "Rubik Glitch";
+	font-family: "Protest Riot";
 	z-index: 10000px;
 }
 .alldetail {
-	position: absolute;
+	position: relative;
 	width: 100%;
-	top: -27px;
+	top: -4px;
 	background-color: none;
-	left: -4%;
 }
 
 .gameownratingstar {
@@ -1362,7 +1374,7 @@ a {
 	background-color: #000000;
 	display: inline-block;
 	width: 100%;
-	height: 35px;
+	height: 55px;
 	color: #ffffff;
 }
 .main {
@@ -1390,7 +1402,7 @@ a {
 	position: absolute;
 	left: 0px;
 	width: 100%;
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
 @media(max-width: 1280px) {
@@ -1412,7 +1424,7 @@ a {
 		left: 0%;
 	}
 	.topdetail {
-		width: 165%;
+		width: 100%;
 	}
 	.topmain {
 		width: 81.5%;
@@ -1420,7 +1432,7 @@ a {
 	.blackbottomdetail {
 		right: 0%;
 		border-radius: 0%;
-		width: 165%;
+		width: 100%;
 	}
 	.detailtitle {
 		width: 70%;
@@ -1490,7 +1502,7 @@ a {
 		width: 100%;
 	}
 	.topdetail {
-		width: 165%;
+		width: 100%;
 	}
 	.topmain {
 		width: 74%;
@@ -1553,10 +1565,10 @@ a {
 		width: 100%;
 	}
 	.middledetail {
-		width: 160%;
+		width: 95%;
 	}
 	.blackbottomdetail {
-		width: 165%;
+		width: 100%;
 	}
 
 
@@ -1576,6 +1588,9 @@ a {
 }
 
 @media(max-width: 599px) {
+	.topdetail {
+		width: 100%;
+	}
 	.searchbar{
 		display: none;
 		left: 0px;
@@ -1623,10 +1638,10 @@ a {
 		margin-top: 0px;
 		left: 27%;
 		width: 25%;
-		height: 200px;
+		height: auto;
 	}
 	.detailtitle {
-		width: 100%;
+		width: 80%;
 	}
 	.detailtrailer {
 		position: absolute;
@@ -1697,7 +1712,7 @@ a {
 		margin-bottom: 20%;
 	}
 	.blackbottomdetail {
-		width: 170%;
+		width: 100%;
 	}
 	.showerandhider {
 	display: none;
@@ -1713,7 +1728,7 @@ a {
 }
 	.blackbottomhome {
 		top: 11000px;
-		width: 165%;
+		width: 100%;
 	}
 	.all {
 		position: absolute;
@@ -1806,10 +1821,7 @@ a {
 	}
 	.alldetail {
 		top: -18px;
-		width: 95%;
-		margin-left: 0px;
-		margin-right: 0px;
-		left: 3%
+		width: 100%;
 	}
 	.links {
 		display: none;
@@ -1818,6 +1830,28 @@ a {
 		left: 115%;
 		width: 50%;
 		margin-top: 40px;
+	}
+	.topdetail {
+		position: relative;
+		width: 100%;
+	}
+	.topdetail {
+		display: inline-block;
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+	}
+	.topratings {
+		display: inline-block;
+		position: relative;
+		width: 80%;
+	}
+	.v {
+		display: inline-block;
+		width: 80%;
 	}
 }
 

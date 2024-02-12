@@ -83,7 +83,7 @@ function Home( {search, user, token,  loggedin, rateOn, setRateOn, darkoverlay, 
 
 
 return (
-	<>
+	<div className={styles.main}>
 	<div className={styles.topmain}>
 	<div className={styles.toptitle}> IMDb Charts </div>
 	<div className={styles.hometitle}><span className={styles.yellowbox}></span>IMDb Top 60 VideoGames</div>
@@ -247,7 +247,7 @@ return (
           <a href="https://www.youtube.com/imdb"> <img src={youtube} className={styles.blackicons}/></a>
           <a href="https://www.facebook.com/imdb"> <img src={facebook} className={styles.blackicons}/></a>
           </div>
-	</>
+	</div>
 );
 };
 

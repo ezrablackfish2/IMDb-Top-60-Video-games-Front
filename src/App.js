@@ -48,7 +48,6 @@ function App() {
 	  <div className={styles.navigation}>
 	  <SearchBar search={search} setSearch={setSearch} user={user} token={token} formData={loginData} setFormDta={setLoginData} loggedin={loggedin} setlogin={setlogin} shower={shower} setShower={setShower}/>
 	  </div>
-	  <div className={styles.main}>
 	  <Router>
 	  <Routes>
 	  	<Route index element={<Home search={search} user={user} token={token} loggedin={loggedin} rateOn={rateOn} setRateOn={setRateOn} darkoverlay={darkoverlay} setdarkoverlay={setdarkoverlay} VG={VG} setVG={setVG} watchlistOn={watchlistOn} setWatchlistOn={setWatchlistOn} watchlist={watchlist} setWatchlist={setWatchlist} watchlistSuccess={watchlistSuccess} setWatchlistSuccess={setWatchlistSuccess} shower={shower} setShower={setShower} />} />
@@ -58,7 +57,6 @@ function App() {
 	  	<Route path="/:id/review"  element={isAuthenticated? <SubmitReview user={user} token={token} /> : <Login user={user} token={token} formData={loginData} setFormData={setLoginData} loggedin={loggedin} setlogin={setlogin}/>} />
 	  </Routes>
 	  </Router>
-	  </div>
 	  <div className={styles.side}><span className={styles.yellowbox}></span>More to explore
 	  <div className={styles.sideTexts}>
 		<p>Top Box Office</p>
