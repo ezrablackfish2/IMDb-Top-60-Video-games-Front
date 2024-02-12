@@ -59,7 +59,15 @@ function App() {
 	  </Routes>
 	  </Router>
 	  </div>
-	  <div className={styles.side}><span className={styles.yellowbox}></span>More to explore</div>
+	  <div className={styles.side}><span className={styles.yellowbox}></span>More to explore
+	  <div className={styles.sideTexts}>
+		<p>Top Box Office</p>
+		<p>Most Popular Games</p>
+		<p>Top Rated English Games</p>
+		<p>Lowest Rated Games</p>
+		<p>Most Popular Casts</p>
+	  </div>
+	  </div>
 	  </div>
   );
 }

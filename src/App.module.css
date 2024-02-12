@@ -1,3 +1,17 @@
+.sideTexts {
+	display: inline-block;
+	position: relative;
+	left: 5%;
+	font-size: 15px;
+	width: 80%;
+	font-family: "Diphylleia";
+}
+
+.sideTexts:hover {
+	cursor: pointer;
+}
+
+
 .allhome {
 	display: flex;
 	position: absolute;
@@ -1364,12 +1378,13 @@ a {
 	font-family: purisa;
 	font-family: 'Bellota', cursive;
 	font-size: 160%;
-	background-color: #ffffcc;
+	background-color: #fcfcfc;
 	display: inline-block;
 	top: 940px;
 	right: 2.5%;
 	width: 32.5%;
 	height: 1800px;
+	border-radius: 15px 15px 15px 15px;
 }
 .all {
 	position: absolute;
